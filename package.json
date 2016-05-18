@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "bootstrap-sass": "^3.3.6",
+    "jquery": "^2.2.3",
     "node-sass": "^3.7.0"
   },
   "devDependencies": {},

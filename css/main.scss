@@ -4,6 +4,9 @@
 @charset "utf-8";
 
 
+/* path to glyphicons */
+$icon-font-path: "../assets/bootstrap/fonts/bootstrap/";
+
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -44,10 +47,42 @@ $on-laptop:        800px;
 }
 
 
+.flex-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.flex-box-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.flex-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 0;
+  flex-basis: 250px;
+  margin: 7px;
+}
+
+
+
+
+
+
+/* any style customization must be before the bootstrap import */
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "custom-bootstrap"
 ;
+

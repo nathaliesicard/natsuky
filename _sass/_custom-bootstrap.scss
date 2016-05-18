@@ -1,0 +1,70 @@
+
+
+/*Brand Colors*/
+$brand-success: #2ecc71;
+$brand-info: #5bc0de;
+$brand-warning: #f1c40f;
+$brand-danger: #e74c3c;
+
+$brand-primary: #3F3244;
+$brand-primary-light: #a9589b;
+$brand-primary-medium: #60495A;
+$link-color: $brand-primary-light;
+
+/*Components*/
+$border-radius-base: 2px;
+$border-radius-large: 4px;
+$border-radius-small: 1px;
+
+
+/* Typography */
+$font-family-sans-serif: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif: 'Lato', sans-serif;
+$font-family-brandon: "BrandonGrotesque-Medium", "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+/*Navbar*/
+$navbar-margin-bottom: 0px;
+$navbar-default-bg: $brand-primary;
+$navbar-border-radius: 0px;
+$navbar-default-color: #fff;
+$navbar-default-link-color: darken($navbar-default-bg, 10%);
+$navbar-default-link-active-color: #fff;
+$navbar-default-brand-color: #fff;
+$navbar-default-brand-hover-color: #fff;
+$navbar-default-link-hover-color: darken($navbar-default-bg, 15%);
+$navbar-default-border: transparent;
+$navbar-default-link-hover-bg: darken(#fff, 5%);
+
+
+/*Fonts*/
+$icon-font-path: '/bootstrap/fonts/bootstrap/';
+
+/*Forms*/
+$input-border: #c3bac2;
+
+/*Form states and alerts*/
+$state-info-bg: #A9ACA9;
+$state-info-text: #20172C;
+
+
+/*Alerts*/
+$alert-border-radius: 0px;
+$alert-success-bg: #dff0d8;
+$alert-success-text: #3c763d;
+$alert-success-border: #d6e9c6;
+$alert-info-bg: #d9edf7;
+$alert-info-text: #31708f;
+$alert-info-border: #bce8f1;
+$alert-warning-bg: #fcf8e3;
+$alert-warning-text: #8a6d3b;
+$alert-warning-border: #faebcc;
+$alert-danger-bg: #f2dede;
+$alert-danger-text: #a94442;
+$alert-danger-border: #ebccd1;
+
+/*Thumbnails*/
+$thumbnail-border:#c3bac2;
+
+/*Buttons*/
+
+@import "../assets/bootstrap/stylesheets/bootstrap";
