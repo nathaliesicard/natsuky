@@ -192,13 +192,19 @@
 .post-link {
     display: block;
     font-size: 24px;
+    text-decoration: none;
+    color: #111;
 }
 
+.post-link:hover {
+    text-decoration: none;
+    color: darken(#F9529B, 20%);
 
+}
 
-/**
- * Posts
- */
+    /**
+     * Posts
+     */
 .post-header {
     margin-bottom: $spacing-unit;
 }

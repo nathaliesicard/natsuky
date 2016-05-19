@@ -10,8 +10,14 @@ layout: default
           <li class="flex-item">
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
               {% assign image = post.images[0] %}
-              {% include image.html image=image %}
-              <h4>{{ post.title }}</h4>
+              <div class="img-hover">
+                {% include image.html image=image %}
+              </div>
+              <h4>{{ post.title }}
+                <span class="text-muted">
+                  {% if post.price %}${{ post.price }}{% endif %}
+                </span>
+              </h4>
             </a>
           </li>
         {% endfor %}

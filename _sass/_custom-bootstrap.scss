@@ -6,7 +6,7 @@ $brand-info: #5bc0de;
 $brand-warning: #f1c40f;
 $brand-danger: #e74c3c;
 
-$brand-primary: #3F3244;
+$brand-primary: #F9529B;
 $brand-primary-light: #a9589b;
 $brand-primary-medium: #60495A;
 $link-color: $brand-primary-light;
@@ -67,4 +67,4 @@ $thumbnail-border:#c3bac2;
 
 /*Buttons*/
 
-@import "../assets/bootstrap/stylesheets/bootstrap";
+@import "../assets/bootstrap/stylesheets/_bootstrap.scss";

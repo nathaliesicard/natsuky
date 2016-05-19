@@ -1,6 +1,7 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
 
@@ -19,7 +20,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #F9529B;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -46,6 +47,10 @@ $on-laptop:        800px;
     }
 }
 
+/*
+ *
+ * Flex Divs
+ */
 
 .flex-box {
   display: flex;
@@ -72,11 +77,138 @@ $on-laptop:        800px;
 }
 
 
+/*
+ *
+ * Custom buttons
+ * Please call this buttons like this: class="btn-lg green" or class="btn green"
+ */
+
+.btn {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Montserrat','Lato', Helvetica, Arial, sans-serif;
+}
+
+button .btn {
+  border: 0px;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 0px 0px 0px;
+}
+
+.btn-lg {
+  border-radius: 2px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Montserrat','Lato', Helvetica, Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  border: 0px;
+}
+
+.btn-lg:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 0px 0px 0px;
+}
+
+.blue {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+  text-decoration: none;
+  color: #fff;
+}
+
+.blue:hover, .blue:focus {
+  background-color: #6FC6FF;
+  text-decoration: none;
+  color: #fff;
+}
+
+.green {
+  background-color: #2ecc71;
+  box-shadow: 0px 5px 0px 0px #15B358;
+  text-decoration: none;
+  color: #fff;
+}
+
+.green:hover, .green:focus {
+  background-color: #48E68B;
+  text-decoration: none;
+  color: #fff;
+}
+
+.red {
+  background-color: #e74c3c;
+  box-shadow: 0px 5px 0px 0px #CE3323;
+  text-decoration: none;
+  color: #fff;
+}
+
+.red:hover, .red:focus {
+  background-color: #FF6656;
+  text-decoration: none;
+  color: #fff;
+}
+
+.purple {
+  background-color: #9b59b6;
+  box-shadow: 0px 5px 0px 0px #82409D;
+  text-decoration: none;
+  color: #fff;
+}
+
+.purple:hover, .purple:focus {
+  background-color: #B573D0;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.pink {
+  background-color: #F9529B;
+  box-shadow: 0px 5px 0px 0px #C9427C;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.pink:hover, .pink:focus {
+  background-color: #FF983C;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.yellow {
+  background-color: #f1c40f;
+  box-shadow: 0px 5px 0px 0px #D8AB00;
+  text-decoration: none;
+  color: #fff;
+}
+
+.yellow:hover, .yellow:focus {
+  background-color: #FFDE29;
+  text-decoration: none;
+  color: #fff;
+}
 
 
 
 
 /* any style customization must be before the bootstrap import */
+
+.price {
+  margin: 5px 0px 25px 0px;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.img-hover:hover {
+  opacity: 0.7;
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
