@@ -20,3 +20,11 @@ markdown: kramdown
 sass:
     sass_dir: _sass
     style: compressed
+
+gems: [jekyll-paginate, jekyll-paginate-category]
+
+paginate: 5
+paginate_path: "page:num"
+
+category_dir: "category"
+category_layout: "index.html"

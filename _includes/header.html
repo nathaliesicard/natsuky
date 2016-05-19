@@ -18,16 +18,12 @@
         </a>
       </div>
       <div class="collapse navbar-collapse" id="natsuky-navbar">
-        {% comment %}
           <ul class="nav navbar-nav navbar-right">
-            {% for my_page in site.pages %}
-            {% if my_page.title %}
-            <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-            {% endif %}
+            {% for category in site.categories %}
+            <li>
+              <a href="/category/{{ category[0] }}/">{{ category[0] | capitalize }}</a></li>
             {% endfor %}
-            <li><a href="#">Link</a></li>
           </ul>
-        {% endcomment %}
       </div>
     </div>
   </nav>

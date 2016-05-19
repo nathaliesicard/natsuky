@@ -2,7 +2,7 @@
 layout: post
 title:  "Cat Nail Caps in Different Colors"
 date:   2016-05-18 16:15:33 -0500
-categories: apparel
+categories: pet
 images:
 
   - url: /assets/img/posts/cat-nail-caps.jpg

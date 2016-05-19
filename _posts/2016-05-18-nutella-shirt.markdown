@@ -2,7 +2,7 @@
 layout: post
 title:  "Kawaii Nutella Crop Top"
 date:   2016-05-18 16:15:33 -0500
-categories: toys
+categories: apparel
 images:
 
   - url: /assets/img/posts/New-2016-Nutella-Print-White-Crop-Tops-Summer-Style-Short-Sleeve-T-shirts-Harajuku-Fitness-Women.jpg_640x640.jpg

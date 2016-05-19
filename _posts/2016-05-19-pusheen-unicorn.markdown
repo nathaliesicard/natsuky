@@ -2,7 +2,7 @@
 layout: post
 title:  "Gund Pusheenicorn Stuffed Animal"
 date:   2016-05-19 12:15:33 -0500
-categories: accessories
+categories: toys
 images:
 
   - url: /assets/img/posts/pusheen-unicorn.jpg
