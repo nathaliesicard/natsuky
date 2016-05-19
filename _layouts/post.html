@@ -45,4 +45,30 @@ layout: default
     </div>
 
   </div>
+  <div class="row text-center">
+    <hr>
+    <button class="show-comments btn blue"><i class="fa fa-comment"></i> See Comments</button>
+  </div>
+
+  <div id="disqus_thread" style="margin-bottom: 20px;"></div>
+
+  <script src="/assets/jquery/dist/jquery.min.js"></script>
+  <script>
+    // Load Disqus comments only on demand
+    $(document).ready(function() {
+      $('.show-comments').on('click', function(){
+        var disqus_shortname = 'natsuky'; // Replace this value with *your* username.
+
+// ajax request to load the disqus javascript
+        $.ajax({
+          type: "GET",
+          url: "https://" + disqus_shortname + ".disqus.com/embed.js",
+          dataType: "script",
+          cache: true
+        });
+// hide the button once comments load
+        $(this).fadeOut();
+      });
+    });
+  </script>
 </article>
