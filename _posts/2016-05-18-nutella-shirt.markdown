@@ -1,22 +1,17 @@
 ---
 layout: post
-title:  "So Pretty Nutella Shirt"
+title:  "Kawaii Nutella Crop Top"
 date:   2016-05-18 16:15:33 -0500
 categories: toys
 images:
 
-  - url: /assets/img/posts/10pcs-lot-6-designs-Cute-Cartoon-Kawaii-Novelty-Ballpoint-Pens-Lovely-Cat-Bird-Ball-Pen-Korean.jpg
-    alt: Cute Pens
-    title: Cute Pens
+  - url: /assets/img/posts/New-2016-Nutella-Print-White-Crop-Tops-Summer-Style-Short-Sleeve-T-shirts-Harajuku-Fitness-Women.jpg_640x640.jpg
+    alt: Nutella Shirt
+    title: Nutella Shirt
 
+link: http://www.aliexpress.com/item/New-Sale-2015-Nutella-Partten-Fashion-Short-Sleeve-Dew-Navel-Crop-Tops-Sexy-Fitness-T-shirt/32511102815.html?ws_ab_test=searchweb201556_7,searchweb201602_4_10017_10021_507_10022_10020_10009_10008_10018_10019_101,searchweb201603_7&btsid=704294da-0f12-4a6c-819f-16093c003b3f
+
+price: 4.96
 ---
 
-![My helpful screenshot](/assets/img/posts/10pcs-lot-6-designs-Cute-Cartoon-Kawaii-Novelty-Ballpoint-Pens-Lovely-Cat-Bird-Ball-Pen-Korean.jpg)
-
-So pretty!
-
-http://www.aliexpress.com/item/10pcs-lot-6-designs-Cute-Cartoon-Kawaii-Novelty-Ballpoint-Pens-Lovely-Cat-Bird-Ball-Pen-Korean/32337432801.html?ws_ab_test=searchweb201556_7,searchweb201602_4_10017_10021_507_10022_10020_10009_10008_10018_10019_101,searchweb201603_7&btsid=13c8aecc-08aa-4ab7-9718-f9c5ebfc7e48
-
-Post body begin, and first image not in excerpt
-{% assign image = page.images[0] %} <-- first element of the array is zero
-{% include image.html image=image %}
+This short sleeved crop top is sexy and cute at the same time. Wear with pride this Nutella shirt to show the world your favourite spread!
