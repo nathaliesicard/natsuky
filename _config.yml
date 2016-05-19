@@ -13,6 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.natsuky.com" # the base hostname & protocol for your site
 twitter_username: NatsukyFashion
+permalink: none
 
 # Build settings
 markdown: kramdown
