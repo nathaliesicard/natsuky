@@ -23,7 +23,7 @@ sass:
 
 gems: [jekyll-paginate, jekyll-paginate-category]
 
-paginate: 5
+paginate: 36
 paginate_path: "page:num"
 
 category_dir: "category"
