@@ -9,7 +9,7 @@ images:
     alt: Nutella Shirt
     title: Nutella Shirt
 
-link: http://www.aliexpress.com/item/New-Sale-2015-Nutella-Partten-Fashion-Short-Sleeve-Dew-Navel-Crop-Tops-Sexy-Fitness-T-shirt/32511102815.html?ws_ab_test=searchweb201556_7,searchweb201602_4_10017_10021_507_10022_10020_10009_10008_10018_10019_101,searchweb201603_7&btsid=704294da-0f12-4a6c-819f-16093c003b3f
+link: http://alipromo.com/redirect/cpa/o/o7gahq5cee85lcgbpdnwwkwr9jxd18v2/
 
 price: 4.96
 ---

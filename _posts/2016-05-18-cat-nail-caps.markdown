@@ -14,7 +14,7 @@ images:
     title: Cat Nail Caps
 
 
-link: http://www.aliexpress.com/item/20Pcs-Colorful-Soft-Pet-Dog-Cat-Kitten-Paw-Claw-Control-Nail-Caps-Cover/32324183060.html?ws_ab_test=searchweb201556_7,searchweb201602_4_10017_10021_507_10022_10020_10009_10008_10018_10019_101,searchweb201603_7&btsid=a7fc4e66-de3b-4e77-96e8-ce0175270e68
+link: http://alipromo.com/redirect/cpa/o/o7gadngsgl19vddpb7kr8bd1cqhri62j/
 
 price: 1.16
 ---

@@ -9,7 +9,7 @@ images:
     alt: Pusheen Pillow Case
     title: Pusheen Pillow Case
 
-link: http://www.aliexpress.com/item/Kawaii-Brinquedos-New-Cat-Pusheen-Pillow-With-Zipper-Only-Skin-Without-PP-Cotton-Biscuits-Kids-Toys/32380683464.html?ws_ab_test=searchweb201556_7,searchweb201602_4_10017_10021_507_10022_10020_9913_10009_10008_10018_10019_101,searchweb201603_7&btsid=367b95f7-0d01-40de-a0be-18cdead7c375
+link: http://alipromo.com/redirect/cpa/o/o7gailnuupzvbtx9fzlc1kp0rkidsh4y/
 
 price: 4.19
 ---
