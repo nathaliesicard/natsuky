@@ -10,8 +10,8 @@ $icon-font-path: "../assets/bootstrap/fonts/bootstrap/";
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: "BrandonGrotesque-Medium", Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -86,7 +86,8 @@ $on-laptop:        800px;
 .btn {
   color: #fff;
   text-decoration: none;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 button .btn {
@@ -105,10 +106,12 @@ button .btn {
   font-size: 22px;
   text-decoration: none;
   color: #fff;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, sans-serif;
   position: relative;
   display: inline-block;
   border: 0px;
+  text-transform: uppercase;
+
 }
 
 .btn-lg:active {
@@ -322,6 +325,33 @@ button .btn {
 .social .fa-youtube-play:hover {
   background: #DF192A;
 }
+
+/* Fonts */
+
+@font-face {
+  font-family: 'BrandonGrotesque-Bold';
+  src: url('/assets/fonts/Brandon-Grotesque/BrandonGrotesque-Bold.eot');
+  src: url('/assets/fonts/Brandon-Grotesque/BrandonGrotesque-Bold.woff2') format('woff2'),
+  url('/assets/fonts/Brandon-Grotesque/BrandonGrotesque-Bold.woff') format('woff'),
+  url('/assets/fonts/Brandon-Grotesque/BrandonGrotesque-Bold.ttf') format('truetype'),
+  url('/assets/fonts/Brandon-Grotesque/BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold') format('svg'),
+  url('/assets/fonts/Brandon-Grotesque/BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BrandonGrotesque-Medium';
+  src: url('/assets/fonts/Brandon-Grotesque/BrandonGrotesque-Medium.eot');
+  src: url('/assets/fonts/Brandon-Grotesque/BrandonGrotesque-Medium.woff2') format('woff2'),
+  url('/assets/fonts/Brandon-Grotesque/BrandonGrotesque-Medium.woff') format('woff'),
+  url('/assets/fonts/Brandon-Grotesque/BrandonGrotesque-Medium.ttf') format('truetype'),
+  url('/assets/fonts/Brandon-Grotesque/BrandonGrotesque-Medium.svg#BrandonGrotesque-Medium') format('svg'),
+  url('/assets/fonts/Brandon-Grotesque/BrandonGrotesque-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 /* any style customization must be before the bootstrap import */
