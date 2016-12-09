@@ -5,13 +5,20 @@ layout: default
 
   <header class="post-header">
     <div class="row">
-      <div class="col-xs-6">
+      <div class="col-sm-6 col-xs-12">
         <h2 itemprop="name headline">{{ page.title }}</h2>
-        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+        {% if page.price %}
+        <p class="price">Price: ${{ page.price }}</p>
+        {% endif %}
       </div>
-      <div class="col-xs-6">
+      <div class="col-sm-6 hidden-xs">
         {% if page.link %}
           <a href="{{ page.link }}" target="_blank" class="btn btn-lg pink pull-right" style="margin-top: 20px;">Check it out</a>
+        {% endif %}
+      </div>
+      <div class="col-xs-12 visible-xs-block text-center">
+        {% if page.link %}
+        <a href="{{ page.link }}" target="_blank" class="btn btn-lg pink" style="margin-top: 20px;">Check it out</a>
         {% endif %}
       </div>
     </div>
@@ -30,17 +37,16 @@ layout: default
         {% endif %}
         {% endfor %}
         {% endif %}
-        <div class="row">
-          {% if page.link %}
-          <a href="{{ page.link }}" target="_blank" class="btn btn-lg pink" style="margin-top: 20px;">Check it out</a>
-          {% endif %}
-        </div>
       </div>
-      <div class="col-sm-7 col-xs-12">
-        {% if page.price %}
-        <p class="price">Price (aprox): ${{ page.price }}</p>
-        {% endif %}
+      <div class="col-sm-7 col-xs-12" style="margin-top: 15px">
         {{ content }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-5 col-xs-12 flex-box-center">
+        {% if page.link %}
+        <a href="{{ page.link }}" target="_blank" class="btn btn-lg pink" style="margin-top: 20px;">Check it out</a>
+        {% endif %}
       </div>
     </div>
 
